@@ -1,0 +1,48 @@
+body, h1, form, input, button {
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  color: #57170B;
+  background-color: #CD022D;
+  padding: 2rem;
+  width: 25rem;
+  border-radius: 10px;
+  margin: 2rem 0 0 2rem;
+  font-family: "Sriracha", cursive;
+  text-align: center;
+}
+.contenedor .encabezado {
+  background-color: #FE5E08;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.contenedor .opciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FE8A4D;
+  border-radius: 10px;
+}
+.contenedor .opciones .opcion1, .contenedor .opciones .opcion2, .contenedor .opciones .opcion3, .contenedor .opciones .opcion4, .contenedor .opciones .opcion5 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 5fr;
+  align-items: center;
+}
+.contenedor .opciones button {
+  background-color: #EBE038;
+  color: #57170B;
+  font-weight: bold;
+  border: solid 1px #EBE038;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  font-family: "Sriracha", cursive;
+}
+.contenedor .opciones button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
